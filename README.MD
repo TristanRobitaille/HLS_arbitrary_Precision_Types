@@ -1,9 +1,12 @@
 # HLS Arbitrary Precision Types Library
 
-This repo provides simulation code of HLS Arbitrary Precision Types.
-
 The code is based from headers shipped with Vivado,
 but due to absence of synthesis support **it should not be used in an HLS project targeting FPGA**.
+This repo provides simulation code of HLS Arbitrary Precision Types.
+
+## Disclaimer note about this fork
+This is a fork of HLS Arbitrary Precision Types **only intended to be used with `TristanRobitaille/engsci-thesis`**.
+Specifically, `include/ap_fixed_special.h` and `include/ap_int_special.h` are removed as they caused compilation ambiguity.
 
 ## Compatibility
 

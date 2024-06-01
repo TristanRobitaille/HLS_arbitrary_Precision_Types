@@ -316,8 +316,6 @@ INLINE void sc_trace(sc_core::sc_trace_file* tf, const ap_uint<_AP_W>& op,
 }
 #endif // System C sim
 
-#include <ap_int_special.h>
-
 #endif // ifndef __AP_INT_H__ else
 
 // FIXME user should include ap_fixed.h when using ap_fixed.
